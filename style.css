@@ -12,13 +12,22 @@
     display: flex;
     justify-content: center;
 }
+
+#user {
+    height: 22px;
+}
+
+#pass {
+    height: 22px;
+}
+
 #login {
     background-color: green ;
     color: white ;
     width: 350px;
     height: 40px;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 #esqueceu {
