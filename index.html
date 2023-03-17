@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Login</title>
     <link rel="stylesheet" href="style.css">
-    <script href="exercicio1.js"></script>
+    <script type="text/javascript" src="exercicio1.js"></script>
 </head>
 
 <body>
@@ -18,9 +18,9 @@
     <label for="name" class="info">Usuário
         <input id="user" type="text" placeholder="Entre com seu Usuário">
     <label for="password"  class="info"> <br> Senha 
-        <input id="pas" type="password" placeholder="Insira sua Senha">
+        <input id="pass" type="password" placeholder="Insira sua Senha">
     </label> <br>
-    <button id="login">Entrar</button>
+    <button onclick="verify()" id="login" type="reset">Entrar</button>
     <p>Relembrar senha</p>
     <p>Esqueceu sua senha?</p>
 </body>
