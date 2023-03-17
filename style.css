@@ -1,15 +1,24 @@
+#titulo {
+    display: flex;
+    justify-content: center;
+}
 #avatar-img{
     width: 350px;
     display: flex;
     justify-content: center;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
 #login {
     background-color: green ;
     color: white ;
-    width: 200px;
+    width: 350px;
     height: 40px;
     margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 #esqueceu {

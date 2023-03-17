@@ -12,23 +12,27 @@
 
 <body>
     <h1 id="titulo">Formulário de Login</h1>
-    <div class="avatar">
+    <div class="container">
+        <div class="avatar">
+        </div>
         <form class="form">
             <img id="avatar-img" src="img/avatar.png">
+            <label for="name" id="user"> Usuário
+                <br>
+                <input id="user" type="text" placeholder="Entre com seu Usuário">
+                <br>
+                <label for="password" id="info"> Senha
+                <br>
+                <input id="pas" type="password" placeholder="Insira sua Senha">
+                </label> <br>
+                <button id="login">Entrar</button> <br>
+                <input type="checkbox">Relembrar senha
+                <a href="https://www.starwars.com/">
+                    <p id="esqueceu">Esqueceu sua senha?</p>
+                </a>
+            </label>
+        </form>
     </div>
-    <label for="name" id="user"> Usuário
-        <input id="user" type="text" placeholder="Entre com seu Usuário">
-        <label for="password" id="info"> <br> Senha
-            <input id="pas" type="password" placeholder="Insira sua Senha">
-        </label> <br>
-        <button id="login">Entrar</button> <br>
-        <input type="checkbox">Relembrar senha
-        <a href="https://www.starwars.com/">
-            <p id="esqueceu">Esqueceu sua senha?</p>
-        </a>
-    </label>
-    </form>
-
 </body>
 
 </html>
