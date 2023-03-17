@@ -1,12 +1,15 @@
 #avatar-img{
-    width: 100px;
-}
-
-.info {
+    width: 350px;
     display: flex;
+    justify-content: center;
 }
 
 #login {
-    color: green ;
-    height: 100px;
+    background-color: green ;
+    color: white ;
+    width: 200px;
+}
+
+#esqueceu {
+    color:blue;
 }
