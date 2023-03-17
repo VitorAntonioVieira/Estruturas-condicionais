@@ -1,6 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: violet;
+}
+
+input {
+    border-radius: 5px;
+    border-color: rgb(214, 214, 214);
+    border-style: solid;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+
 #titulo {
     display: flex;
     justify-content: center;
+    color: white;
 }
 #avatar-img{
     width: 350px;
@@ -8,10 +32,6 @@
     justify-content: center;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
 
 #user {
     height: 22px;
