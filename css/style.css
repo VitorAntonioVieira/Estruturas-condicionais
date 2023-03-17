@@ -1,12 +1,41 @@
+#titulo {
+    display: flex;
+    justify-content: center;
+}
 #avatar-img{
-    width: 100px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
 }
 
-.info {
+.container {
     display: flex;
+    justify-content: center;
+}
+
+#user {
+    height: 22px;
+    width: 342px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#pass {
+    height: 22px;
+    width: 342px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #login {
-    color: green ;
-    height: 100px;
+    background-color: green ;
+    color: white ;
+    width: 350px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#esqueceu {
+    color:blue;
 }
