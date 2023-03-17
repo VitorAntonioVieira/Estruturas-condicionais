@@ -15,9 +15,9 @@
     <div class="container">
         <div class="avatar">
         </div>
-        <form class="form">
+        <form class="form" method="post" action="">
             <img id="avatar-img" src="img/avatar.png">
-            <label for="user" id="user"> Usuário</label>
+            <label for="user"> Usuário</label>
                 <br>
                 <input id="user" type="text" placeholder="Entre com seu Usuário">
                 <br>
@@ -25,7 +25,7 @@
                 <br>
                 <input id="pass" type="password" placeholder="Insira sua Senha">
                 <br>
-                <button onclick="verify()" id="login">Entrar</button> <br>
+                <button onclick="verify()" id="login" type="reset">Entrar</button> <br>
                 <input type="checkbox">Relembrar senha
                 <a href="https://www.starwars.com/">
                     <p id="esqueceu">Esqueceu sua senha?</p>
